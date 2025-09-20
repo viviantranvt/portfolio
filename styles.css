@@ -899,3 +899,15 @@ section {
         grid-template-columns: 1fr;
     }
 }
+
+/* --- IOS adjustments --- */
+html, body { overflow-x: hidden; }
+img, video, canvas, svg { max-width: 100%; height: auto; display: block; }
+.hero { min-height: 100dvh; }
+.profile-pic { 
+  width: clamp(220px, 70vw, 550px); 
+  max-width: 100%;
+}
+@media (max-width: 768px) {
+  .profile-pic { width: clamp(220px, 85vw, 420px); margin: 0 auto; }
+}
