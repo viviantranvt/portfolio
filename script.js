@@ -116,16 +116,6 @@ window.addEventListener('load', () => {
 });
 
 
-// Parallax effect for hero section
-window.addEventListener('scroll', () => {
-    const scrolled = window.pageYOffset;
-    const parallaxElements = document.querySelectorAll('.hero-image');
-    
-    parallaxElements.forEach(element => {
-        const speed = 0.5;
-        element.style.transform = `translateY(${scrolled * speed}px)`;
-    });
-});
 
 // Skills animation on hover
 document.querySelectorAll('.skill-item').forEach(skill => {
