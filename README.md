@@ -1,6 +1,5 @@
 # Vivian Tran - Portfolio Website
-
-A modern, responsive personal portfolio website showcasing my skills, experience, and education as a Software Engineer and UT Austin student. Built with HTML, CSS, and JavaScript.
+- Access the website online at https://viviantranvt.github.io/portfolio/ 
 
 ## Features
 
