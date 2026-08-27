@@ -516,7 +516,7 @@ section {
 
 /* Experience Section */
 .experience-accordion {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     position: relative;
 }
@@ -633,7 +633,7 @@ section {
 }
 
 .experience-details.active {
-    max-height: 500px;
+    max-height: 600px;
     padding: 0 2rem 2rem 2rem;
 }
 
